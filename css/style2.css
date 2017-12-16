@@ -1,0 +1,117 @@
+.doc-container{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+    .canvas-wrapper{
+      flex-wrap: wrap;
+      margin: 0 auto;
+      background-color: white;
+    }
+
+    .tool-wrapper{
+      margin: 0 auto 10px auto;
+      flex-wrap: wrap;
+      background-color: white;
+    }
+
+    .tool-name{
+      margin: 0 auto;
+      text-align: center;
+      font-size: 27px;
+      font-weight: bold;
+      font-family: 'Pangolin', cursive;
+    }
+        #color-field0{
+          font-size: 16px;
+          font-family: 'Pangolin', cursive;
+          text-align: center;
+          margin-top:5%;
+          margin-bottom: 5%;
+        }
+        #color-field1{
+          text-align: center;
+          margin-top: 10%;
+        }
+
+
+
+    .erasers{
+      top:50%;
+      transform: translateY(-50%);
+    }
+        #eraser-tool0{
+          left:3%;
+        }
+
+        #eraser-tool1{
+          left:25%;
+        }
+
+        #eraser-tool2{
+          left:60%;
+        }
+
+    .brushes{
+      top:50%;
+      transform: translateY(-50%);
+    }
+
+        #paint-brush0{
+          left: 3%;
+        }
+
+        #paint-brush1{
+          left: 20%;
+        }
+
+        #paint-brush2{
+          left: 45%;
+        }
+
+        #increase-brush{
+          left: 72%;
+        }
+
+    #button-wrapper{
+      text-align: center;
+    }
+      .buttons{
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: 10px;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+    #pop-up{
+      top:25%;
+      transform:translateY(-50%);
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid #6fc5fd;
+      background-color: #6fc5fd;
+      padding: 10px 20px 10px 20px;
+      border-radius: 5px;
+    }
+
+    #pop-up-size{
+      top:25%;
+      transform:translateY(-50%);
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid #6fc5fd;
+      background-color: #6fc5fd;
+      padding: 10px 20px 10px 20px;
+      border-radius: 5px;
+    }
